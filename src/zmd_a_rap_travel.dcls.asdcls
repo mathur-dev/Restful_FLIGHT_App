@@ -1,0 +1,16 @@
+@EndUserText.label: 'Access Control for ZMD_I_RAP_TRAVEL'
+@MappingRole: true
+define role ZMD_A_RAP_TRAVEL {
+    grant
+        select
+            on
+                ZMD_I_RAP_TRAVEL
+                    where
+//                    ( TravelStatus )
+//                    = aspect pfcg_auth ( zmd_ostata , ZM_OST_AUT , actvt = '03' )
+//                    and 
+//                        CurrencyCode = 'EUR';
+true;
+                        
+                        
+}

@@ -1,0 +1,5 @@
+CLASS zbp_md_i_rap_booking DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zmd_i_rap_travel.
+ENDCLASS.
+
+CLASS zbp_md_i_rap_booking IMPLEMENTATION.
+ENDCLASS.
